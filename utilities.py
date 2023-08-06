@@ -25,4 +25,4 @@ def print_benchmark(benchmark_time, new_time, benchmark_description = 'Benchmark
     improvement_factor = round(benchmark_time / new_time, 2)
     print(benchmark_description + ':', benchmark_time)
     print(new_description + ':', new_time)
-    print(benchmark_description, 'was', improvement_factor, 'times faster than', new_description)
+    print(new_description, 'was', improvement_factor, 'times faster than', benchmark_description)
